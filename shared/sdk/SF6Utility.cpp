@@ -202,7 +202,8 @@ bool is_online_match() {
             case EGameMode::CABINET_MATCH:
             case EGameMode::CUSTOM_ROOM_MATCH:
             case EGameMode::ONLINE_TRAINING:
-                return true;
+                // return true;
+                return false;
 
             default:
                 break;
@@ -218,7 +219,8 @@ bool is_online_match() {
             case EGameMode::CABINET_MATCH:
             case EGameMode::CUSTOM_ROOM_MATCH:
             case EGameMode::ONLINE_TRAINING:
-                return true;
+                // return true;
+                return false;
 
             default:
                 break;
